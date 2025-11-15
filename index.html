@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#blogs" class="nav-link">Blogs</a></li>
+                <li><a href="#talks" class="nav-link">Talks</a></li>
+                <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+                <li><a href="#connect" class="nav-link">Connect</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="profile-picture">
+                    <img src="images/profile.jpg" alt="Profile Picture" id="profile-img">
+                </div>
+                <h1 class="hero-name">Kalpana</h1>
+                <p class="hero-title">Professional Title / Role</p>
+                <p class="hero-description">Passionate professional dedicated to excellence and innovation</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to my portfolio! I am a dedicated professional with a passion for creating innovative solutions and delivering exceptional results. With years of experience in my field, I bring a unique perspective and a commitment to excellence to every project.</p>
+                    <p>My journey has been shaped by continuous learning, collaboration, and a drive to make a meaningful impact. I believe in the power of technology and creativity to solve complex problems and create value for businesses and communities.</p>
+                    <p>When I'm not working on projects, you'll find me exploring new technologies, contributing to open-source communities, or sharing knowledge through writing and speaking engagements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>B.E Computer Science</h3>
+                    <p class="education-institution">GCT Erode</p>
+                    <p class="education-year">Year - Year</p>
+                    <p class="education-description">Description of your degree, achievements, or relevant coursework.</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Additional Qualification</h3>
+                    <p class="education-institution">Institution Name</p>
+                    <p class="education-year">Year - Year</p>
+                    <p class="education-description">Description of additional qualifications or certifications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Technologies & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Name 1</h3>
+                        <p>Description of your project, technologies used, and key features. This project demonstrates your skills and expertise.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Name 2</h3>
+                        <p>Description of your project, technologies used, and key features. This project demonstrates your skills and expertise.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Name 3</h3>
+                        <p>Description of your project, technologies used, and key features. This project demonstrates your skills and expertise.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Achievements Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications & Achievements</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Certification Name 1</h3>
+                    <p class="cert-issuer">Issuing Organization</p>
+                    <p class="cert-date">Month Year</p>
+                    <a href="#" class="cert-link">View Certificate <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Certification Name 2</h3>
+                    <p class="cert-issuer">Issuing Organization</p>
+                    <p class="cert-date">Month Year</p>
+                    <a href="#" class="cert-link">View Certificate <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Achievement Title</h3>
+                    <p class="cert-issuer">Organization/Event</p>
+                    <p class="cert-date">Month Year</p>
+                    <p class="cert-description">Description of the achievement or recognition received.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Blogs Section -->
+    <section id="blogs" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">My Blogs</h2>
+            <div class="blogs-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">Published: Month Day, Year</span>
+                        <h3>Blog Post Title 1</h3>
+                        <p>Brief description or excerpt from your blog post. This gives readers a preview of what they can expect.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">Published: Month Day, Year</span>
+                        <h3>Blog Post Title 2</h3>
+                        <p>Brief description or excerpt from your blog post. This gives readers a preview of what they can expect.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">Published: Month Day, Year</span>
+                        <h3>Blog Post Title 3</h3>
+                        <p>Brief description or excerpt from your blog post. This gives readers a preview of what they can expect.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Talks Section -->
+    <section id="talks" class="section">
+        <div class="container">
+            <h2 class="section-title">My Talks</h2>
+            <div class="talks-grid">
+                <div class="talk-card">
+                    <div class="talk-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Talk Title 1</h3>
+                    <p class="talk-event">Event/Conference Name</p>
+                    <p class="talk-date">Month Year</p>
+                    <p class="talk-description">Description of your talk, topics covered, and key takeaways for the audience.</p>
+                    <div class="talk-links">
+                        <a href="#" class="talk-link"><i class="fas fa-video"></i> Watch Recording</a>
+                        <a href="#" class="talk-link"><i class="fas fa-file-pdf"></i> Slides</a>
+                    </div>
+                </div>
+                <div class="talk-card">
+                    <div class="talk-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Talk Title 2</h3>
+                    <p class="talk-event">Event/Conference Name</p>
+                    <p class="talk-date">Month Year</p>
+                    <p class="talk-description">Description of your talk, topics covered, and key takeaways for the audience.</p>
+                    <div class="talk-links">
+                        <a href="#" class="talk-link"><i class="fas fa-video"></i> Watch Recording</a>
+                        <a href="#" class="talk-link"><i class="fas fa-file-pdf"></i> Slides</a>
+                    </div>
+                </div>
+                <div class="talk-card">
+                    <div class="talk-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Talk Title 3</h3>
+                    <p class="talk-event">Event/Conference Name</p>
+                    <p class="talk-date">Month Year</p>
+                    <p class="talk-description">Description of your talk, topics covered, and key takeaways for the audience.</p>
+                    <div class="talk-links">
+                        <a href="#" class="talk-link"><i class="fas fa-video"></i> Watch Recording</a>
+                        <a href="#" class="talk-link"><i class="fas fa-file-pdf"></i> Slides</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Hobbies</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Reading</h3>
+                    <p>I enjoy reading books on technology, personal development, and fiction. It helps me stay updated and relax.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Photography</h3>
+                    <p>Capturing moments and exploring the world through the lens. Photography is my creative outlet.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Fitness</h3>
+                    <p>Maintaining an active lifestyle through regular exercise and fitness activities.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Music</h3>
+                    <p>Playing instruments and listening to music. Music is a source of inspiration and relaxation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Let's Connect Talk Section -->
+    <section id="connect" class="section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect & Talk</h2>
+            <div class="connect-content">
+                <div class="connect-card">
+                    <div class="connect-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Book a Session with Me</h3>
+                    <p>Interested in discussing opportunities, collaborations, or getting advice? Let's connect and have a meaningful conversation!</p>
+                    <p class="connect-description">I'm available for:</p>
+                    <ul class="connect-list">
+                        <li><i class="fas fa-check"></i> Career guidance and mentorship</li>
+                        <li><i class="fas fa-check"></i> Technical consultations</li>
+                        <li><i class="fas fa-check"></i> Project discussions</li>
+                        <li><i class="fas fa-check"></i> Speaking opportunities</li>
+                    </ul>
+                    <a href="https://topmate.io/your-profile" target="_blank" class="btn btn-primary btn-large">
+                        <i class="fas fa-calendar-alt"></i> Book on Topmate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>your.email@example.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Your City, Country</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="#home">Home</a> |
+                <a href="#about">About</a> |
+                <a href="#contact">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
